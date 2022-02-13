@@ -1,0 +1,47 @@
+name: Bug-Report
+description: Melde ein Bug auf ProjectV Gangwar!
+labels: ['bug', 'Gameserver']
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibe dein Problem!
+      description: Beschreibe dein Problem Genau!
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduktionsschritte
+      description: Beschreibe wie man den Fehler reproduziert.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Schreibe was normalerweise passieren sollte!
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Zusatz
+      description: Screenshots, Videos etc.
+  - type: input
+    id: version
+    attributes:
+      label: Dein Spieler Name
+      description: Wie lautet dein Spieler-Name!
+      placeholder: e.g. Max Mustermann
+    validations:
+      required: true
+  - type: input
+    id: discord
+    attributes:
+      label: Discord Name
+      description: Wie lautet dein Discord Name
+      placeholder: e.g. 𝖝𝖃𝕭𝖑𝖆𝖈𝖐_𝕿𝖊𝖗𝖗𝖔𝖗𝖃𝖝#0187
+    validations:
+      required: true
