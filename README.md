@@ -15,4 +15,3 @@ Wir sammeln hier Fehlermeldungen zum **Gameserver**.
 
 - Vorschläge fürr neue Features sollten über Unseren [Discord](https://discord.gg/projectgw) eingereicht werden.
 - Bei Fragen sollte ein Ticket über das [Ticketsystem](https://discord.gg/projectgw) geöffnet werden.
-- Für den Austausch mit der Community haben wir einen öffentlichen Discord Server bereitgestellt. Die Links dazu findest du unten.
